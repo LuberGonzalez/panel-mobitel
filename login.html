@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicio de Sesion</title>
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <section class="section">
+      <div class="container__form">
+        <div class="user signin-box">
+          <div class="img__box"><img src="./images/form-photo-1.jpg" /></div>
+          <div class="form__box">
+            <form class="form__login" autocomplete="off">
+              <div class="form__title">
+                <h2>Inicio de Sesion</h2>
+              </div>
+
+              <input
+                type="text"
+                name="usuario"
+                placeholder="Usuario"
+                class="form__input"
+                autofocus
+                required
+              />
+              <input
+                type="password"
+                name="contraseña"
+                placeholder="Contraseña"
+                class="form__input"
+                required
+              />
+              <input type="submit" value="Conectarse" class="form__submit" />
+
+              <p class="form__remember">
+                ¿No Tienes Cuenta?
+                <a href="#" class="form__link">Crea Una Aquí</a>
+              </p>
+            </form>
+          </div>
+        </div>
+        <div class="user signup-box">
+          <div class="form__box">
+            <form class="form__login" autocomplete="off">
+              <div class="form__title">
+                <h2>Crear Una Cuenta</h2>
+              </div>
+
+              <input
+                type="text"
+                name="usuario"
+                placeholder="Usuario"
+                class="form__input"
+                required
+                autofocus
+              />
+              <input
+                type="email"
+                name="usuario"
+                placeholder="Correo"
+                class="form__input"
+                required
+              />
+              <input
+                type="password"
+                name="contraseña"
+                placeholder="Contraseña"
+                class="form__input"
+                required
+              />
+              <input
+                type="password"
+                name="contraseña"
+                placeholder="Confirmar Contraseña"
+                class="form__input"
+                required
+              />
+              <input type="submit" value="Registrarse" class="form__submit" />
+
+              <p class="form__remember">
+                ¿Tienes Cuenta?
+                <a href="#" class="form__link">Inicia Sesión Aquí</a>
+              </p>
+            </form>
+          </div>
+          <div class="img__box"><img src="./images/form-photo-2.png" alt="form-photo-2"/></div>
+        </div>
+      </div>
+    </section>
+    <script src="./js/index.js" type="module"></script>
+  </body>
+</html>

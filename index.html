@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="main-nav">
+        <ul class="main-menu">
+          <li class="main-menu-item">
+            <a href="#" class="main-menu-link">
+              <span class="span-icon"
+                ><ion-icon name="logo-apple"></ion-icon
+              ></span>
+              <span class="span-title">Marca</span>
+            </a>
+          </li>
+          <li class="main-menu-item">
+            <a href="#" class="main-menu-link">
+              <span class="span-icon"
+                ><ion-icon name="home-outline"></ion-icon
+              ></span>
+              <span class="span-title">Panel</span>
+            </a>
+          </li>
+          <li class="main-menu-item">
+            <a href="#" class="main-menu-link">
+              <span class="span-icon"
+                ><ion-icon name="person-outline"></ion-icon
+              ></span>
+              <span class="span-title">Usuarios</span>
+            </a>
+          </li>
+          <li class="main-menu-item">
+            <a href="#" class="main-menu-link">
+              <span class="span-icon"
+                ><ion-icon name="chatbubble-outline"></ion-icon
+              ></span>
+              <span class="span-title">Mesnsajes</span>
+            </a>
+          </li>
+          <li class="main-menu-item">
+            <a href="#" class="main-menu-link">
+              <span class="span-icon"
+                ><ion-icon name="settings-outline"></ion-icon
+              ></span>
+              <span class="span-title">Configuracion</span>
+            </a>
+          </li>
+          <li class="main-menu-item">
+            <a href="#" class="main-menu-link">
+              <span class="span-icon"
+                ><ion-icon name="help-outline"></ion-icon
+              ></span>
+              <span class="span-title">Ayuda</span>
+            </a>
+          </li>
+          <li class="main-menu-item">
+            <a href="#" class="main-menu-link">
+              <span class="span-icon"
+                ><ion-icon name="lock-closed-outline"></ion-icon
+              ></span>
+              <span class="span-title">Contraseña</span>
+            </a>
+          </li>
+          <li class="main-menu-item">
+            <a href="#" class="main-menu-link">
+              <span class="span-icon"
+                ><ion-icon name="log-out-outline"></ion-icon
+              ></span>
+              <span class="span-title">Cerrar Sesion</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <main>
+        <div class="topbar">
+          <div class="toggle">
+            <ion-icon name="menu-outline"></ion-icon>
+          </div>
+
+          <div class="search">
+            <form class="form-search">
+              <label class="form-label">
+                <input
+                  type="search"
+                  placeholder="Busca aqui"
+                  class="form-input"
+                />
+                <ion-icon name="search-outline"></ion-icon>
+              </label>
+            </form>
+          </div>
+
+          <div class="menu__panel-user">
+            <div class="profile center">
+              <ion-icon name="person-outline"></ion-icon>
+            </div>
+            <div class="profile__menu-container">
+              <h1 class="profile__name">
+                Nombre de Usuario <span class="profile__rol">ROL</span>
+              </h1>
+              <ul class="profile__menu">
+                <li class="profile__menu-item">
+                  <i class="profile__menu-icon">I</i>
+                  <a href="#" class="profile__menu-link">Perfil</a>
+                </li>
+                <li class="profile__menu-item">
+                  <i class="profile__menu-icon">I</i>
+                  <a href="#" class="profile__menu-link">Editar</a>
+                </li>
+                <li class="profile__menu-item">
+                  <i class="profile__menu-icon">I</i>
+                  <a href="#" class="profile__menu-link">Mails</a>
+                </li>
+                <li class="profile__menu-item">
+                  <i class="profile__menu-icon">I</i>
+                  <a href="#" class="profile__menu-link">Configuraciones</a>
+                </li>
+                <li class="profile__menu-item">
+                  <i class="profile__menu-icon">I</i>
+                  <a href="#" class="profile__menu-link">Ayuda</a>
+                </li>
+                <li class="profile__menu-item">
+                  <i class="profile__menu-icon">I</i>
+                  <a href="#" class="profile__menu-link">Desconectarse</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="box-card">
+          <div class="card">
+            <div class="card-content">
+              <span class="card-numbers">$7.842</span>
+              <span class="card-name">Views</span>
+            </div>
+            <div class="box-icon">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-content">
+              <span class="card-numbers">80</span>
+              <span class="card-name">Sales</span>
+            </div>
+            <div class="box-icon">
+              <ion-icon name="cart-outline"></ion-icon>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-content">
+              <span class="card-numbers">284</span>
+              <span class="card-name">Comments</span>
+            </div>
+            <div class="box-icon">
+              <ion-icon name="cash-outline"></ion-icon>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-content">
+              <span class="card-numbers">$7.842</span>
+              <span class="card-name">Earnings</span>
+            </div>
+            <div class="box-icon">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+          </div>
+        </div>
+
+        <section class="section-details">
+          <div class="orders">
+            <div class="card-header">
+              <h2 class="card-header-title">Recent Order</h2>
+              <a href="#" class="btn">View Alls</a>
+            </div>
+            <table class="main-table">
+              <thead class="thead">
+                <tr class="tr">
+                  <td class="td">Name</td>
+                  <td class="td">Price</td>
+                  <td class="td">Payment</td>
+                  <td class="td">Status</td>
+                </tr>
+              </thead>
+              <tbody class="tbody">
+                <tr class="tr">
+                  <td class="td">Start Refrigerator</td>
+                  <td class="td">$1200</td>
+                  <td class="td">Paid</td>
+                  <td class="td">
+                    <span class="status delivered">Deliverded</span>
+                  </td>
+                </tr>
+                
+                <tr class="tr">
+                  <td class="td">Start Refrigerator</td>
+                  <td class="td">$1200</td>
+                  <td class="td">Paid</td>
+                  <td class="td">
+                    <span class="status return">Return</span>
+                  </td>
+                </tr>
+
+
+                <tr class="tr">
+                  <td class="td">Start Refrigerator</td>
+                  <td class="td">$1200</td>
+                  <td class="td">Paid</td>
+                  <td class="td">
+                    <span class="status delivered">Deliverded</span>
+                  </td>
+                </tr>
+
+                <tr class="tr">
+                  <td class="td">Start Refrigerator</td>
+                  <td class="td">$1200</td>
+                  <td class="td">Paid</td>
+                  <td class="td">
+                    <span class="status pending">Pending</span>
+                  </td>
+                </tr>
+
+
+                <tr class="tr">
+                  <td class="td">Start Refrigerator</td>
+                  <td class="td">$1200</td>
+                  <td class="td">Paid</td>
+                  <td class="td">
+                    <span class="status inprogress">In Progress</span>
+                  </td>
+                </tr>
+
+
+                <tr class="tr">
+                  <td class="td">Start Refrigerator</td>
+                  <td class="td">$1200</td>
+                  <td class="td">Paid</td>
+                  <td class="td">
+                    <span class="status return">Return</span>
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+
+
+          <div class="recent-customers">
+            <div class="card-header">
+              <h2 class="card-header-title">Recent Customers</h2>
+            </div>
+
+            <table class="table">
+              <tr class="tr">
+                <td class="td" width="60px"><div class="box-img"> <img src="./images/img1.jpg" alt="" class="img"> </div></td>
+                <td class="td"><h4 class="name">David <span class="lastname">Itay</span> </h4></td>
+              </tr>
+              <tr class="tr">
+                <td class="td" width="60px"><div class="box-img"> <img src="./images/img2.jpg" alt="" class="img"> </div></td>
+                <td class="td"><h4 class="name">David <span class="lastname">Itay</span> </h4></td>
+              </tr>
+              <tr class="tr">
+                <td class="td" width="60px"><div class="box-img"> <img src="./images/img3.jpg" alt="" class="img"> </div></td>
+                <td class="td"><h4 class="name">David <span class="lastname">Itay</span> </h4></td>
+              </tr>
+              <tr class="tr">
+                <td class="td" width="60px"><div class="box-img"> <img src="./images/img4.jpg" alt="" class="img"> </div></td>
+                <td class="td"><h4 class="name">David <span class="lastname">Itay</span> </h4></td>
+              </tr>
+              <tr class="tr">
+                <td class="td" width="60px"><div class="box-img"> <img src="./images/img5.jpg" alt="" class="img"> </div></td>
+                <td class="td"><h4 class="name">David <span class="lastname">Itay</span> </h4></td>
+              </tr>
+              <tr class="tr">
+                <td class="td" width="60px"><div class="box-img"> <img src="./images/img6.jpg" alt="" class="img"> </div></td>
+                <td class="td"><h4 class="name">David <span class="lastname">Itay</span> </h4></td>
+              </tr>
+
+              <tr class="tr">
+                <td class="td" width="60px"><div class="box-img"> <img src="./images/img7.jpg" alt="" class="img"> </div></td>
+                <td class="td"><h4 class="name">David <span class="lastname">Itay</span> </h4></td>
+              </tr>
+
+              <tr class="tr">
+                <td class="td" width="60px"><div class="box-img"> <img src="./images/img8.jpg" alt="" class="img"> </div></td>
+                <td class="td"><h4 class="name">David <span class="lastname">Itay</span> </h4></td>
+              </tr>
+
+            </table>
+
+          </div>
+        </section> -->
+
+        <div class="main-content">
+          <form action="#" autocomplete="off" class="main-form ">
+            <div class="user_info">
+              <input
+                type="text"
+                id="names"
+                placeholder="Agregar Tipo de Producto"
+                class="form__input w100"
+              />
+              <input
+                type="submit"
+                value="Confirmar"
+                id="btnSend"
+                class="button--submit disabled w100"
+                data-theme=""
+              />
+            </div>
+          </form>
+        </div>
+      </main>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="./js/index.js" type="module"></script>
+  </body>
+</html>
